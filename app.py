@@ -3,7 +3,7 @@ from langchain.chat_models import ChatOllama
 from langchain.schema import HumanMessage
 import re
 ## Code
-######
+#######
 def extract_tasks(text):
     """Heuristic-based function to extract potential tasks from unstructured text."""
     sentences = text.split('.')
